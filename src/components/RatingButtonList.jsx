@@ -8,7 +8,7 @@ export const RatingButtonList = ({ options, onLeaveFeedback }) => {
           key={option}
           className={css.button}
           name={option}
-          onClick={onLeaveFeedback}
+          onClick={() => onLeaveFeedback(option)}
           type="button"
         >
           {option}
