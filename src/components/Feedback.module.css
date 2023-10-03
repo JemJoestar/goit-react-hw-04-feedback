@@ -1,0 +1,30 @@
+
+
+.title{
+    font-size: 20px;
+}
+
+.button{
+    text-transform: capitalize;
+    border-radius: 5px;
+    border: 1px solid #000000;
+}
+
+
+.buttonList{
+    display: flex;
+    gap: 10px;
+}
+
+.ratingList{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.text{
+    margin: 0;
+}
+
+
+
